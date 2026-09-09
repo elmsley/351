@@ -8,8 +8,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen flex flex-col bg-slate-50 text-slate-900 font-sans">
         <header className="bg-slate-900 text-white shadow-md">
           <nav className="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
-            <Link href="/" className="text-2xl font-bold tracking-tight hover:text-slate-300 transition-colors">
-              351 SILVER STAR
+            <Link href="/" className="flex items-center gap-3 hover:opacity-90 transition-opacity">
+              <img 
+                src="/logo.png" 
+                alt="351 Silver Star Logo" 
+                className="h-12 w-auto object-contain" 
+              />
+              <span className="text-2xl font-bold tracking-tight">
+                351 SILVER STAR
+              </span>
             </Link>
 
             <div className="flex flex-wrap justify-center gap-6 mt-4 md:mt-0 items-center">

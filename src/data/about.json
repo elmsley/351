@@ -1,0 +1,52 @@
+{
+  "history": "The 351 Silver Star Royal Canadian Air Cadet Unionville Squadron formed on September 10th, 1987. Since then, we continued to work with the Canadian Armed Forces and the Air Cadet League of Canada to deliver high quality training programs and activities in Markham Ontario to youth of age 12 to 18.",
+  "mission": "The Cadet program provides a dynamic program providing structure and discipline to Canadian youth. Through a variety of challenging yet rewarding activities, cadets develop leadership, good citizenship, and physical fitness, while stimulating interest in Aviation.",
+  "values": [
+    "Structure and discipline",
+    "Leadership",
+    "Good citizenship",
+    "Physical fitness",
+    "Personal growth in a complementary team environment"
+  ],
+  "staff": [
+    { "name": "Capt Sabarillo", "role": "Commanding Officer", "image": "/staff/photo_jsabarillo.jpg" },
+    { "name": "Capt W. Westernacher-Schneider CD", "role": "DCO", "image": "/staff/photo_wn21.jpg" },
+    { "name": "2Lt B. Lee", "role": "Officer", "image": "/staff/photo_blee.jpg" },
+    { "name": "Lt Yam", "role": "Admin Officer", "image": "/staff/photo_eyam.jpg" },
+    { "name": "2Lt Lee", "role": "Officer", "image": "/staff/photo_slee.jpg" },
+    { "name": "2Lt Choi", "role": "Officer", "image": "/staff/photo_cchoi2.jpg" },
+    { "name": "Mr Leung", "role": "Staff", "image": "/staff/photo_bleung.jpg" },
+    { "name": "2Lt Liu", "role": "Officer", "image": "/staff/photo_cliu.jpg" },
+    { "name": "OCdt Su", "role": "Officer Cadet", "image": "/staff/photo_jsu.jpg" },
+    { "name": "CI VanKessel", "role": "Civilian Instructor", "image": "/staff/photo_VanKessel.jpg" }
+  ],
+  "pastCommandTeam": [
+    { "year": "2023-2025", "members": "Capt M. Delaney" },
+    { "year": "2022", "members": "Major Herman Li, WO1 Kalen Delaney" },
+    { "year": "2021", "members": "WO1 Andy Zhang" },
+    { "year": "2020", "members": "WO1 Nixon Chan" },
+    { "year": "2019", "members": "Major Wayne Westernacher-Schneider, WO1 Kiana Wong" },
+    { "year": "2018", "members": "WO1 Adonis Lau, WO1 Imran Lalani" },
+    { "year": "2017", "members": "WO1 Justin Su" },
+    { "year": "2016", "members": "Major Adam Mobbs, WO1 Nathan Chan" },
+    { "year": "2015", "members": "WO1 Sharon Cheng" },
+    { "year": "2014", "members": "WO1 Carmen Chan" },
+    { "year": "2013", "members": "Major Mark Holowatyj, WO1 Charmaine Cheng" },
+    { "year": "2012", "members": "WO1 Douglas Chung" },
+    { "year": "2011", "members": "WO1 Jason Liang" },
+    { "year": "2010", "members": "Major Scott Harvey, WO1 James Wong" },
+    { "year": "2009", "members": "WO1 Ronald Chan" },
+    { "year": "2008", "members": "WO1 Fatima Husein" },
+    { "year": "2007", "members": "Major Pamela Evelyn, WO1 Jordan Mills" },
+    { "year": "2006", "members": "WO1 Blake Tsigaridis" },
+    { "year": "2005", "members": "WO1 Jamila Husein" },
+    { "year": "2004", "members": "Captain Rob Spirin, WO1 Nick Tsigaridis" },
+    { "year": "2003", "members": "WO1 Andrew Butler" },
+    { "year": "2002", "members": "WO1 Eric Chan" },
+    { "year": "2001", "members": "WO1 Brian Wong" },
+    { "year": "2000", "members": "WO1 Zoletes Gerendas" },
+    { "year": "1999", "members": "WO1 Frank Dennis, WO1 Curtis Marble" },
+    { "year": "1997", "members": "WO1 Roger Thompson" },
+    { "year": "1994", "members": "WO1 Michael Jarvis" }
+  ]
+}
