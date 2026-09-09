@@ -49,16 +49,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         {/* Centered Global Site Banner */}
         <div className="w-full flex justify-center py-6 px-4">
-          <div className="relative w-full max-w-[75%] overflow-hidden rounded-2xl shadow-lg border border-slate-200 h-32 md:h-48">
-            <img
-              src="https://www.351silverstar.com/images/header_wide.jpg"
-              alt="351 Silver Star Banner"
-              className="w-full h-full object-cover block"
-            />
-            <div className="absolute inset-0 bg-slate-900/40 flex items-center justify-center">
-              <h1 className="text-white text-lg md:text-2xl font-black uppercase tracking-widest text-center px-4 drop-shadow-lg">
-                351 Silver Star Royal Canadian Air Cadet Squadron - Unionville
-              </h1>
+          <div className="relative w-full max-w-[75%] overflow-hidden rounded-2xl shadow-lg border border-slate-200 h-32 md:h-48 bg-gradient-to-r from-blue-900 via-slate-900 to-blue-900 flex items-center">
+            <div className="absolute inset-0 opacity-20 pointer-events-none">
+               <div className="absolute top-0 left-0 w-full h-full" style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(255,255,255,0.1) 1px, transparent 0)', backgroundSize: '24px 24px' }}></div>
+            </div>
+            <div className="relative z-10 flex items-center gap-6 px-8 w-full">
+              <img 
+                src="/logo.png" 
+                alt="351 Silver Star Logo" 
+                className="h-20 md:h-32 w-auto object-contain drop-shadow-xl" 
+              />
+              <div className="text-left">
+                <h1 className="text-white text-lg md:text-2xl font-black uppercase tracking-widest drop-shadow-lg leading-tight">
+                  <span className="block text-2xl md:text-3xl mb-1">351 Silver Star</span>
+                  <span className="block text-sm md:text-lg font-bold opacity-90">Royal Canadian Air Cadet Squadron - Unionville</span>
+                </h1>
+              </div>
             </div>
           </div>
         </div>
