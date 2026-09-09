@@ -1,5 +1,6 @@
 import homeData from '@/data/home.json';
 import Link from 'next/link';
+import locationsData from '@/data/locations.json';
 
 export default function HomePage() {
   return (
@@ -64,10 +65,25 @@ export default function HomePage() {
             <div className="w-14 h-14 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
               📍
             </div>
-            <h3 className="text-xl font-bold mb-3 text-slate-900">Where</h3>
-            <p className="text-slate-600 leading-relaxed">
-              Located at <span className="font-bold text-slate-900">{homeData.trainingBasics.location}</span>.
-            </p>
+            <div className="flex flex-col gap-4">
+              <div>
+                <h3 className="text-xl font-bold mb-3 text-slate-900">Where</h3>
+                <p className="text-slate-600 leading-relaxed mb-4">
+                  Located at <span className="font-bold text-slate-900">{homeData.trainingBasics.location}</span>.
+                </p>
+              </div>
+              <div className="aspect-video w-full rounded-xl overflow-hidden shadow-sm border border-slate-200">
+                <iframe 
+                  src={locationsData.burOak.mapEmbedUrl} 
+                  className="w-full h-full" 
+                  style={{ border: 0 }} 
+                  allowFullScreen 
+                  loading="lazy" 
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  title="Bur Oak Location"
+                />
+              </div>
+            </div>
           </div>
 
           <div className="group p-8 bg-white rounded-3xl shadow-sm border border-slate-200 hover:shadow-xl transition-all hover:-translate-y-2">

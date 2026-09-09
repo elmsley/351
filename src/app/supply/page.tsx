@@ -1,4 +1,5 @@
 import supplyData from '@/data/supply.json';
+import locationsData from '@/data/locations.json';
 
 export default function SupplyPage() {
   return (
@@ -9,7 +10,7 @@ export default function SupplyPage() {
         </h1>
         <p className="text-slate-500 text-lg">Ensuring professional standards across the squadron.</p>
       </header>
-      
+
       <div className="grid lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2 space-y-8">
           <div className="bg-white p-10 rounded-3xl shadow-sm border border-slate-200">
@@ -21,7 +22,7 @@ export default function SupplyPage() {
               {supplyData.overview}
             </p>
           </div>
-          
+
           <div className="bg-white p-10 rounded-3xl shadow-sm border border-slate-200">
             <h2 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
               <span className="w-2 h-8 bg-blue-600 rounded-full"></span>
@@ -35,6 +36,30 @@ export default function SupplyPage() {
               <div className="p-6 bg-slate-50 rounded-2xl border border-slate-200">
                 <h3 className="font-bold text-slate-900 mb-2">Return Policy</h3>
                 <p className="text-slate-600">{supplyData.returnPolicy}</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white p-10 rounded-3xl shadow-sm border border-slate-200">
+            <h2 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+              <span className="w-2 h-8 bg-blue-600 rounded-full"></span>
+              Office Location
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div className="space-y-4">
+                <div className="text-xl font-bold text-slate-800">{locationsData.office.name}</div>
+                <div className="text-slate-600 leading-relaxed">{locationsData.office.address}</div>
+              </div>
+              <div className="aspect-video w-full rounded-2xl overflow-hidden shadow-inner border border-slate-200">
+                <iframe 
+                  src={locationsData.office.mapEmbedUrl} 
+                  className="w-full h-full" 
+                  style={{ border: 0 }} 
+                  allowFullScreen 
+                  loading="lazy" 
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  title={locationsData.office.name}
+                />
               </div>
             </div>
           </div>

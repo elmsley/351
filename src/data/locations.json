@@ -1,0 +1,22 @@
+{
+  "burOak": {
+    "name": "Bur Oak Secondary School",
+    "address": "Bur Oak Secondary School, Markham, ON",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.5250180759977!2d-79.28116788756333!3d43.89706233650273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d5294cb29440af%3A0x18523a6edc80077c!2sBur%20Oak%20Secondary%20School!5e1!3m2!1sen!2sca!4v1788963594489!5m2!1sen!2sca"
+  },
+  "stJuliaBilliart": {
+    "name": "St. Julia Billiart Catholic School",
+    "address": "St. Julia Billiart Catholic School, Markham, ON",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.142570036783!2d-79.25600148756311!3d43.90293963612105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d529ce30c0a6bd%3A0xc81527ac7144283c!2sSt.%20Julia%20Billiart%20Catholic%20School!5e1!3m2!1sen!2sca!4v1788963689802!5m2!1sen!2sca"
+  },
+  "franklinStreet": {
+    "name": "Franklin Street Public School",
+    "address": "Franklin Street Public School, Markham, ON",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.63982119479!2d-79.26055748756396!3d43.87992693761582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d63a3f8a5c69%3A0x6a3dc655a4aa22f!2sFranklin%20Street%20Public%20School!5e1!3m2!1sen!2sca!4v1788963727133!5m2!1sen!2sca"
+  },
+  "office": {
+    "name": "Squadron Office",
+    "address": "185 Riviera Dr, Markham, ON L3R 5M1",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3878.688186036768!2d-79.34025278756567!3d43.83304394065889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d487b6b85b4d%3A0x4e98c60f908c4e7d!2s185%20Riviera%20Dr%2C%20Markham%2C%20ON%20L3R%205M1!5e1!3m2!1sen!2sca!4v1788963871187!5m2!1sen!2sca"
+  }
+}

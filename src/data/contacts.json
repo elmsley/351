@@ -4,7 +4,15 @@
     "phone": "Not public - use Dashboard"
   },
   "supportLinks": [
-    { "name": "Kids Help Phone", "url": "https://kidshelpphone.ca" },
-    { "name": "CF Member Assistance Program (CFMAP)", "url": "https://example.com/cfmap" }
+    { 
+      "name": "Kids Help Phone", 
+      "url": "https://kidshelpphone.ca", 
+      "description": "Start a confidential conversation with a real person you can trust. Text, Phone, or Messenger" 
+    },
+    { 
+      "name": "CF Member Assistance Program (CFMAP)", 
+      "url": "https://www.canada.ca/en/department-national-defence/programs/member-assistance.html", 
+      "description": "The Canadian Forces Member Assistance Program (CFMAP) offers confidential, voluntary, short term counselling to assist with resolving many of today's stresses at home and in the work place." 
+    }
   ]
 }

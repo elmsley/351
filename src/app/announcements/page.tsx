@@ -6,6 +6,26 @@ import { useState } from 'react';
 export default function AnnouncementsPage() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
+  const isExpired = (expiryDate?: string) => {
+    if (!expiryDate) return false;
+    
+    // expiryDate is in "MM/YYYY" format
+    const [month, year] = expiryDate.split('/').map(Number);
+    const now = new Date();
+    const currentMonth = now.getMonth() + 1;
+    const currentYear = now.getFullYear();
+
+    // Expire at the end of the month:
+    // If current year > expiry year, it's expired.
+    // If current year == expiry year and current month > expiry month, it's expired.
+    if (currentYear > year) return true;
+    if (currentYear === year && currentMonth > month) return true;
+    
+    return false;
+  };
+
+  const activeAnnouncements = announcementsData.filter(event => !isExpired(event.expiryDate));
+
   return (
     <div className="max-w-6xl mx-auto space-y-12 relative">
       <header className="text-center mb-16">
@@ -16,24 +36,24 @@ export default function AnnouncementsPage() {
       </header>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {announcementsData.map((event, index) => (
+        {activeAnnouncements.map((event, index) => (
           <div key={index} className="group bg-white rounded-3xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-2xl transition-all hover:-translate-y-2 flex flex-col">
             {event.image && (
-              <div className="p-6 flex justify-center bg-slate-50 border-b border-slate-100">
-                <img 
-                  src={event.image} 
-                  alt={event.title} 
+              <div className="bg-slate-50 border-b border-slate-100">
+                <img
+                  src={event.image}
+                  alt={event.title}
                   onClick={() => setSelectedImage(event.image)}
-                  className="h-32 w-auto object-contain cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-sm"
+                  className="w-full h-48 object-contain cursor-pointer hover:opacity-80 transition-opacity"
                 />
               </div>
             )}
             {event.video && (
               <div className="aspect-video w-full overflow-hidden">
-                <iframe 
-                  src={event.video} 
-                  className="w-full h-full" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                <iframe
+                  src={event.video}
+                  className="w-full h-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   title={event.title}
                 />
@@ -48,9 +68,16 @@ export default function AnnouncementsPage() {
               <h2 className="text-2xl font-bold text-slate-900 mb-4 group-hover:text-blue-600 transition-colors leading-tight">
                 {event.title}
               </h2>
-              <p className="text-slate-600 leading-relaxed mb-6">
-                {event.description}
-              </p>
+              <div className="text-slate-600 leading-relaxed mb-6 space-y-4">
+                <p>{event.description}</p>
+                {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((num) => {
+                  const key = `description${num}`;
+                  // @ts-ignore - accessing dynamic keys from json
+                  return event[key] ? (
+                    <p key={num}>{event[key]}</p>
+                  ) : null;
+                })}
+              </div>
             </div>
             <div className="p-8 pt-0">
               {event.link ? (
@@ -71,13 +98,13 @@ export default function AnnouncementsPage() {
       </div>
 
       {selectedImage && (
-        <div 
+        <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 cursor-zoom-out"
           onClick={() => setSelectedImage(null)}
         >
-          <img 
-            src={selectedImage} 
-            alt="Full announcement" 
+          <img
+            src={selectedImage}
+            alt="Full announcement"
             className="max-w-full max-h-full object-contain rounded-lg shadow-2xl"
           />
         </div>

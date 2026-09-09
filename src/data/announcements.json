@@ -3,53 +3,64 @@
     "title": "Year-End Celebration",
     "date": "2026-06-09",
     "description": "Celebrating the achievements of our cadets for the 2025-2026 training year. Signup available on TEAMS.",
-    "link": null
+    "link": null,
+    "expiryDate": "08/2026"
   },
   {
     "title": "Annual Cadet Review (ACR) 2026",
     "date": "2026-05-14",
     "description": "The formal inspection of the squadron's progress.",
-    "link": null
+    "link": null,
+    "expiryDate": "09/2026"
   },
   {
     "title": "Awards Dinner / Mess Dinner",
     "date": "2026-05-26",
-    "description": "351 cadets will have the opportunity to participate in an annual Mess Dinner free of charge at All Nations Event Center, 3300 Hwy 7, Markham, ON L3R 5N9. Join us for a special evening filled with a heartwarming celebration! Date: 26 May 2026, Time: 1800 - 2145 hrs. Dress: C2 (bowtie available for sale at the SSC desk for $5 each). Limit of 6 cadets per table, all members must be in the same proficiency level. Sign up by 2300 hrs on Thursday, 14 May. OPI: 2Lt Su, CPI: WO2 Pandey, Sanvi.",
+    "description": "351 cadets will have the opportunity to participate in an annual Mess Dinner free of charge at All Nations Event Center, 3300 Hwy 7, Markham, ON L3R 5N9.",
+    "description1": "Join us for a special evening filled with a heartwarming celebration!",
+    "description2": "Date: 26 May 2026, Time: 1800 - 2145 hrs. Dress: C2 (bowtie available for sale at the SSC desk for $5 each). ",
+    "description3": "Limit of 6 cadets per table, all members must be in the same proficiency level. Sign up by 2300 hrs on Thursday, 14 May. OPI: 2Lt Su, CPI: WO2 Pandey, Sanvi.",
     "link": "https://forms.office.com/example-mess-dinner",
-    "image": "/announcement-mess-dinner.png"
+    "image": "/announcement-mess-dinner.png",
+    "expiryDate": "09/2026"
   },
   {
     "title": "COA Air Elemental ADA Day",
     "date": "2026-05-22",
     "description": "COA will conduct Air Elemental ADAs in late May 2026 to reinforce aircrew survival and aviation knowledge. 351 Air Squadron will participate the weekend of 22-24 May 2026. Signup open to all level cadets (ALP cadets encouraged as Support Cadets). This is an overnight activity; meals and transportation provided. Submit via FORM by 15 May 2026.",
-    "link": null
+    "link": null,
+    "expiryDate": "09/2026"
   },
   {
     "title": "Spring Gliding Day",
     "date": "2026-05-03",
     "description": "A Spring Gliding Day will be held on Sunday, 3 May, 2026 at CFB Borden. Transportation and lunch will be provided. Cadets required to sign up by Monday, 26 April. Joining Instructions (JI) will be sent to selected cadets via Cadet365 email. Note: sign-up does not guarantee a spot.",
     "link": "https://forms.office.com/example-gliding",
-    "video": "https://www.youtube.com/embed/ZrctbfusPWs"
+    "video": "https://www.youtube.com/embed/ZrctbfusPWs",
+    "expiryDate": "09/2026"
   },
   {
     "title": "Bowling Night",
     "date": "2026-04-12",
     "description": "Join us for a fun evening of bowling with the squadron!",
     "link": null,
-    "image": "/announcement-bowling.png"
+    "image": "/announcement-bowling.png",
+    "expiryDate": "09/2026"
   },
   {
     "title": "39th Annual Invitation",
     "date": "2026-03-15",
     "description": "Official invitation to the 39th annual gathering.",
     "link": null,
-    "image": "/announcement-invitation.jpg"
+    "image": "/announcement-invitation.jpg",
+    "expiryDate": "09/2026"
   },
   {
     "title": "Edenvale Event",
     "date": "2026-02-10",
     "description": "Special event held at Edenvale.",
     "link": null,
-    "image": "/announcement-edenvale.jpg"
+    "image": "/announcement-edenvale.jpg",
+    "expiryDate": "09/2026"
   }
 ]

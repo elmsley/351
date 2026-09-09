@@ -1,0 +1,70 @@
+{
+  "intro": "The 351 Silver Star Squadron cannot operate without the active support from the community. While the Canadian government funds the basic operational costs, the squadron relies on ongoing support from local community to continue the high quality training activities and services we offer our cadets at no cost to them.",
+  "sponsorshipCall": "To become a financial supporter of the 351 Silver Star Squadron, please contact the squadron sponsoring committee.",
+  "sponsoringCommittee": [
+    { "name": "Karen So-Cheung", "role": "Chair" },
+    { "name": "Cher Lau", "role": "Vice Chair" },
+    { "name": "Fenny Ou", "role": "Treasurer" },
+    { "name": "Melissa Yee", "role": "Secretary" },
+    { "name": "Wammie Leung", "role": "Tagging Co-ordinators" },
+    { "name": "Sandra Lai", "role": "Canteen & Charitable Gaming Volunteers Co-ordinator" },
+    { "name": "Sarada Pushyami", "role": "Member" },
+    { "name": "Carol Wan", "role": "Member" },
+    { "name": "Mary Lam", "role": "Member" },
+    { "name": "Surren Balendran", "role": "Member" },
+    { "name": "Wammie", "role": "Member" },
+    { "name": "Wendy K", "role": "Member" },
+    { "name": "Dorothy Lam", "role": "Member" },
+    { "name": "Jason Mah", "role": "Member" }
+  ],
+  "communitySupporters": {
+    "thankYouMessage": "Our sincere gratitude for the generous financial support from the following supporters:",
+    "supporters": [
+      "Bur Oak Secondary School",
+      "Franklin Street Public School",
+      "St Julia Billart Catholic School",
+      "Richmond Hill Hall Charities Association",
+      "RPAS Centre"
+    ]
+  },
+  "volunteers": {
+    "description": "Volunteers are a crucial part of our organization. All volunteers are screened to ensure the integrity of the program. Please come talk to one of our SSC / staff if you are interested in joining us as a volunteer.",
+    "links": [
+      { "label": "Join as a CIC Officer", "url": "https://aircadetleague.com/join-us/join-cic-officer/" },
+      { "label": "Join as a Civilian Instructor", "url": "#" },
+      { "label": "Join as a Civilian Volunteer", "url": "#" }
+    ]
+  },
+  "scholarship": {
+    "title": "WO Alfred Wong Memorial Scholarship",
+    "description": "The Warrant Officer Alfred Wong of 351 (Silver Star) Squadron Memorial Scholarship was created in 2007 in memory of this exceptional young man and outstanding cadet.",
+    "criteria": "For a Serving or Former Cadet Entering a Post-Secondary Music-related Program, or Enrolling in a Post-Secondary Program who was a Member of a Squadron Band for at Least Three Years.",
+    "amount": "$1,200",
+    "note": "This scholarship is granted yearly to a deserving Air Cadet on a merit basis. Qualifying instructions and award application can be found on the scholarship package.",
+    "pastRecipients": [
+      { "year": "2024", "recipients": [
+        { "name": "WO2 Lam Mackenzie", "squadron": "351 Silver Star Squadron, Unionville" },
+        { "name": "WO2 Gogna Shruti", "squadron": "883 A/C Leonard Birchall Sqn, Markham" }
+      ]},
+      { "year": "2020", "status": "Not Awarded" },
+      { "year": "2019", "name": "WO1 Norman STEWART", "squadron": "330 Danforth Tech, Toronto" },
+      { "year": "2018", "name": "WO2 Liam GALLAGHER", "squadron": "707 Marion Orr CM, Stouffville" },
+      { "year": "2017", "name": "WO1 Justin SU", "squadron": "351 Silver Star, Unionville" },
+      { "year": "2016", "recipients": [
+        { "name": "WO1 Jessica THOMAS", "squadron": "99 Lynx Squadron, Orillia" },
+        { "name": "WO2 Ricci EBRON", "squadron": "778 Banshee Squadron, Richmond Hill" }
+      ]},
+      { "year": "2015", "status": "Not Awarded" },
+      { "year": "2014", "name": "WO2 Jonathan YUEN", "squadron": "883 A/C Leonard Birchall Sqn, Markham" },
+      { "year": "2013", "name": "FSgt Rebecca CLARKE-ELDRIDGE", "squadron": "2 VandenBos Whitby Squadron, Whitby" },
+      { "year": "2012", "recipients": [
+        { "name": "WO2 Danielle HUGGINS", "squadron": "62 Phantom Squadron, Grimsby" },
+        { "name": "WO2 Heather SMITH", "squadron": "325 Cornwall Kiwanis Squadron, Cornwall" }
+      ]},
+      { "year": "2011", "name": "WO2 Bryan HO", "squadron": "351 Silver Star Squadron, Markham" },
+      { "year": "2010", "status": "Not Awarded" },
+      { "year": "2009", "name": "WO1 (Ret’d) Anthony NERO", "squadron": "180 Mosquito Squadron, Toronto" },
+      { "year": "2008", "name": "WO2 (Ret’d) Lorraine RIGDEN", "squadron": "724 Midland Lions Squadron, Midland" }
+    ]
+  }
+}

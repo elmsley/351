@@ -17,15 +17,20 @@ export default function ContactPage() {
         <h2 className="text-xl font-bold text-slate-800 mb-6 text-center uppercase tracking-wide">Support Resources</h2>
         <div className="grid gap-4">
           {contactData.supportLinks.map((link, index) => (
-            <a 
-              key={index} 
-              href={link.url} 
+            <a
+              key={index}
+              href={link.url}
               className="block p-4 bg-slate-50 hover:bg-blue-50 border border-slate-200 rounded-xl transition-colors group"
             >
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center mb-2">
                 <span className="font-bold text-slate-900 group-hover:text-blue-700">{link.name}</span>
                 <span className="text-blue-600 text-sm font-medium">Visit Site &rarr;</span>
               </div>
+              {link.description && (
+                <p className="text-sm text-slate-600 leading-relaxed">
+                  {link.description}
+                </p>
+              )}
             </a>
           ))}
         </div>

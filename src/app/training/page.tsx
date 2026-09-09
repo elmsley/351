@@ -1,4 +1,5 @@
 import trainingData from '@/data/training.json';
+import locationsData from '@/data/locations.json';
 
 export default function TrainingPage() {
   return (
@@ -35,6 +36,30 @@ export default function TrainingPage() {
           </div>
         </section>
       </div>
+
+      <section className="mt-20">
+        <h2 className="text-2xl font-bold text-slate-900 mb-6 uppercase tracking-tight">Training Location</h2>
+        <div className="grid md:grid-cols-2 gap-8 items-start">
+          <div className="space-y-4">
+            <div className="text-xl font-bold text-slate-800">{locationsData.burOak.name}</div>
+            <div className="text-slate-600">{locationsData.burOak.address}</div>
+            <div className="p-4 bg-blue-50 rounded-xl border border-blue-100 text-blue-800 text-sm italic">
+              Please follow all school and squadron safety protocols upon arrival.
+            </div>
+          </div>
+          <div className="aspect-video w-full rounded-2xl overflow-hidden shadow-lg border border-slate-200">
+            <iframe 
+              src={locationsData.burOak.mapEmbedUrl} 
+              className="w-full h-full" 
+              style={{ border: 0 }} 
+              allowFullScreen 
+              loading="lazy" 
+              referrerPolicy="strict-origin-when-cross-origin"
+              title={locationsData.burOak.name}
+            />
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

@@ -1,0 +1,64 @@
+{
+  "teams": [
+    {
+      "name": "Marching Band",
+      "category": "Musical & Ceremonial",
+      "description": "Band continues to conduct weekly practices online with a focus on individual coaching and self-improvement. The band meets weekly on Mondays from 1900-2000 hrs. Cadets who are interested in joining the band and own their own instruments are welcome to join.",
+      "status": "Active (Online)"
+    },
+    {
+      "name": "Flag Party",
+      "category": "Musical & Ceremonial",
+      "description": "Flag party will practice in-person when able. Online resources will also be used.",
+      "status": "Pending"
+    },
+    {
+      "name": "Drill Team",
+      "category": "Musical & Ceremonial",
+      "description": "Drill team tryout will commence when in-person training resumes. Practices are planned for Friday evenings.",
+      "status": "Pending"
+    },
+    {
+      "name": "Pilot Training (Ground School)",
+      "category": "Technical & Aviation",
+      "description": "Power and Glider Training Courses may be offered next summer pending further communications. Ground school is delivered virtually.",
+      "status": "Information Pending"
+    },
+    {
+      "name": "Drone Training",
+      "category": "Technical & Aviation",
+      "description": "Opportunities to be trained and certified for flying drones. A Transport Canada exam is required for either Basic (age 14+) and Advanced operations (age 16+).",
+      "status": "Information Pending"
+    },
+    {
+      "name": "Marksmanship Team",
+      "category": "Competitive & Athletic",
+      "description": "Competitions proceed with modifications. After initial training (air rifle safe handle test), new cadets can tryout for competition teams. The squadron is allocated 3 teams of 5 members for the championship series.",
+      "status": "Active"
+    },
+    {
+      "name": "Biathlon Team",
+      "category": "Competitive & Athletic",
+      "description": "Biathlon training and team selection commence when in-person training resumes. Practices are traditionally Friday evenings and weekends before competitions in January.",
+      "status": "Pending"
+    },
+    {
+      "name": "Sports Team",
+      "category": "Competitive & Athletic",
+      "description": "Fitness training focuses on an innovative and flexible format.",
+      "status": "Active"
+    },
+    {
+      "name": "Effective Speaking Team",
+      "category": "Communication",
+      "description": "An opportunity to learn and improve public speaking skills, including prepared and impromptu speeches, with guidance from Toastmasters International instructors.",
+      "status": "Active"
+    },
+    {
+      "name": "Debate Team",
+      "category": "Communication",
+      "description": "Debate Team utilizes a virtual platform and typically starts after the Effective Speaking program.",
+      "status": "Information Pending"
+    }
+  ]
+}
