@@ -72,9 +72,9 @@ export default function AnnouncementsPage() {
                 <p>{event.description}</p>
                 {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((num) => {
                   const key = `description${num}`;
-                  // @ts-ignore - accessing dynamic keys from json
-                  return event[key] ? (
-                    <p key={num}>{event[key]}</p>
+                  const value = (event as any)[key];
+                  return value ? (
+                    <p key={num}>{value}</p>
                   ) : null;
                 })}
               </div>
