@@ -1,0 +1,30 @@
+{
+  "loginMethods": [
+    {
+      "id": "google",
+      "title": "Google Sign in",
+      "status": "discontinued",
+      "statusMessage": "Please note: On 31 March 2023, \"Sign-In with Google\" will be discontinued by Google. Beginning 30 April 2023, please use the other 2 methods to login.",
+      "domainNote": "Linked @351silverstar.com, @gapps.yrdsb.ca, @ycdsb.ca domains only. Remember to sign off from both the website and from Google when completed."
+    },
+    {
+      "id": "c365",
+      "title": "Cadet 365 Sign in",
+      "status": "transition",
+      "statusMessage": "NOTE: of 6 Apr 2026, Cadet 365 no longer authenticates with affiliated (federated) websites. There will be a transition period to look for alternate method to login.",
+      "buttonText": "Sign in with Microsoft"
+    },
+    {
+      "id": "internal",
+      "title": "Internal Accounts",
+      "status": "warning",
+      "statusMessage": "NOTE: This is not for @cdt.cadets.gc.ca logins. During the transition period (see above), cadets may not have access to the dashboard.",
+      "fields": ["Username", "Password"]
+    }
+  ],
+  "footer": {
+    "forgotPasswordLink": "/forgot-password",
+    "webmasterLink": "/contact",
+    "webmasterNote": "Contact the webmaster for password-related issues."
+  }
+}

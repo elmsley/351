@@ -15,6 +15,7 @@
   },
   "dashboard": {
     "label": "Cadet Dashboard",
-    "href": "https://dashboard.351silverstar.com"
+    "href": "/dashboard"
   }
+
 }
