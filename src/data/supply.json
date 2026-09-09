@@ -1,11 +1,16 @@
 {
   "overview": "Uniforms are essential for professional appearance and discipline within the squadron.",
-  "exchangeProcess": "Uniform exchanges are managed via the Cadet Dashboard. Please request sizing changes electronically.",
-  "returnPolicy": "Former cadets must return all issued items to the squadron office to avoid replacement costs.",
+  "exchangeProcess": "Cadets with ill-fitting uniform parts can submit requests for exchange for a size that fits from the dashboard: Click Exchange at the bottom of the dashboard under Supply. Pick up will be at the Squadron Office on the Supply night. If parts are not in stock, you will be notified when they will be ready.",
+  "returnPolicy": "Cadets no longer with the squadron should return their washed uniform to supply. Returns are accepted every Tuesday during regular training at Bur Oak Secondary School. Drop off the uniform on the Supply Desk and include the return form.",
   "supplyNights": [
-    { "month": "October", "date": "Thursday 2nd" },
-    { "month": "January", "date": "Thursday 15th" },
-    { "month": "April", "date": "Thursday 22nd" }
+    { "date": "Sept 11th" },
+    { "date": "Sept 25th" },
+    { "date": "Oct 23rd" },
+    { "date": "Nov 20th" },
+    { "date": "Dec 11th" }
   ],
-  "officeAddress": "Markham, ON (Detailed address provided via Dashboard)"
+  "supplyNightTime": "6:30 pm to 8:30 pm",
+  "supplyNightNote": "Cadets can drop by without advance request, but no guarantee that the uniform parts are in stock. Please bring back the washed uniform to exchange.",
+  "officeAddress": "Unit 5 - 185 Riviera Dr, Markham, Ontario L3R 5J6",
+  "followUp": "Cadets with outstanding supply requests are to follow up with the Supply WO."
 }

@@ -42,11 +42,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         {/* Centered Global Site Banner */}
         <div className="w-full flex justify-center py-6 px-4">
-          <div className="relative w-full max-w-[75%] overflow-hidden rounded-2xl shadow-lg border border-slate-200">
-            <img 
-              src="https://www.351silverstar.com/images/header_wide.jpg" 
-              alt="351 Silver Star Banner" 
-              className="w-full h-auto block"
+          <div className="relative w-full max-w-[75%] overflow-hidden rounded-2xl shadow-lg border border-slate-200 h-32 md:h-48">
+            <img
+              src="https://www.351silverstar.com/images/header_wide.jpg"
+              alt="351 Silver Star Banner"
+              className="w-full h-full object-cover block"
             />
             <div className="absolute inset-0 bg-slate-900/40 flex items-center justify-center">
               <h1 className="text-white text-lg md:text-2xl font-black uppercase tracking-widest text-center px-4 drop-shadow-lg">

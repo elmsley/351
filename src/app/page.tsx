@@ -5,33 +5,21 @@ export default function HomePage() {
   return (
     <div className="space-y-20">
       {/* Hero Section */}
-      <section className="relative overflow-hidden rounded-3xl bg-slate-900 text-white py-20 px-8 text-center shadow-2xl">
-        {/* Decorative Background Element */}
-        <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
-          <div className="absolute -top-24 -left-24 w-96 h-96 bg-blue-500 rounded-full blur-3xl"></div>
-          <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-slate-700 rounded-full blur-3xl"></div>
-        </div>
-
-        <div className="relative z-10 max-w-4xl mx-auto">
-          <span className="inline-block px-3 py-1 rounded-full bg-blue-600 text-xs font-bold uppercase tracking-widest mb-6 animate-fade-in">
-            Official Squadron Portal
+      <section className="relative overflow-hidden rounded-3xl h-auto py-8 px-8 text-center shadow-sm bg-slate-50 border border-slate-200">
+        <div className="relative z-10 flex flex-col items-center justify-start px-8 max-w-4xl mx-auto">
+          <span className="inline-block px-3 py-1 rounded-full bg-slate-200 text-slate-600 text-xs font-bold uppercase tracking-widest mb-4 animate-fade-in">
+            Un-official Squadron Portal
           </span>
-          <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight tracking-tighter">
-            {homeData.title}
-          </h1>
-          <p className="text-xl md:text-2xl text-slate-300 mb-10 font-light max-w-2xl mx-auto leading-relaxed">
-            {homeData.subtitle}
-          </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link
               href="/announcements"
-              className="bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-full font-bold transition-all transform hover:scale-105 shadow-lg"
+              className="bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-full font-bold transition-all transform hover:scale-105 shadow-lg"
             >
               Latest News
             </Link>
             <Link
               href="/training"
-              className="bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-full font-bold transition-all border border-white/20"
+              className="bg-white hover:bg-slate-50 text-slate-900 px-6 py-3 rounded-full font-bold transition-all border border-slate-200 shadow-sm"
             >
               Training Info
             </Link>
@@ -40,23 +28,13 @@ export default function HomePage() {
       </section>
 
       {/* Mission/Welcome Section */}
-      <section className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
-        <div className="relative">
-          <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl border border-slate-300">
-            <img
-              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8D1gyXamJRCfLPWkHMm6MjzoMJCzREadtpa-R7c4WA4jj2_uEevzxGmYJhjTbU1mylrGRblNBPf8zG0q7LXtCA_LaKldCCzQQ7lqwxPggArznsZuTy-9KbvWUCSYG8A0tNv_ZCF93lz72-ddCkeFwf441d6hKQv2HVvq3CYE0s2DpCqb8zGhBqrfKpKSQ/s849/Edenvale.jpg"
-              alt="Squadron Training"
-              className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-            />
-          </div>
-          <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-blue-600 rounded-2xl -z-10 hidden md:block"></div>
-        </div>
+      <section className="max-w-3xl mx-auto text-center">
         <div className="space-y-6">
           <h2 className="text-3xl font-bold text-slate-900 tracking-tight">Our Mission</h2>
           <p className="text-lg text-slate-600 leading-relaxed">
             {homeData.welcome}
           </p>
-          <div className="p-6 bg-blue-50 rounded-2xl border-l-4 border-blue-600">
+          <div className="p-6 bg-blue-50 rounded-2xl border-l-4 border-blue-600 text-left inline-block">
             <p className="text-blue-900 font-medium italic">
               "Developing leadership and aviation skills in the youth of Unionville through discipline and excellence."
             </p>

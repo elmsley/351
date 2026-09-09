@@ -42,16 +42,15 @@ export default function SupplyPage() {
 
         <div className="bg-slate-900 text-white p-10 rounded-3xl shadow-2xl relative overflow-hidden">
           <div className="absolute top-0 right-0 w-32 h-32 bg-blue-600 rounded-full blur-3xl opacity-20"></div>
-          
+
           <h2 className="text-2xl font-bold mb-8 uppercase tracking-widest text-blue-400">
             Supply Nights
           </h2>
-          
+
           <div className="space-y-6">
             {supplyData.supplyNights.map((night, index) => (
               <div key={index} className="flex justify-between items-center p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-colors">
-                <span className="font-bold text-lg">{night.month}</span>
-                <span className="text-slate-400 font-medium">{night.date}</span>
+                <span className="font-bold text-lg">{night.date}</span>
               </div>
             ))}
           </div>
