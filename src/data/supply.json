@@ -1,0 +1,11 @@
+{
+  "overview": "Uniforms are essential for professional appearance and discipline within the squadron.",
+  "exchangeProcess": "Uniform exchanges are managed via the Cadet Dashboard. Please request sizing changes electronically.",
+  "returnPolicy": "Former cadets must return all issued items to the squadron office to avoid replacement costs.",
+  "supplyNights": [
+    { "month": "October", "date": "Thursday 2nd" },
+    { "month": "January", "date": "Thursday 15th" },
+    { "month": "April", "date": "Thursday 22nd" }
+  ],
+  "officeAddress": "Markham, ON (Detailed address provided via Dashboard)"
+}

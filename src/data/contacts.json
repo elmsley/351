@@ -1,0 +1,10 @@
+{
+  "officialContact": {
+    "email": "info@351silverstar.com",
+    "phone": "Not public - use Dashboard"
+  },
+  "supportLinks": [
+    { "name": "Kids Help Phone", "url": "https://kidshelpphone.ca" },
+    { "name": "CF Member Assistance Program (CFMAP)", "url": "https://example.com/cfmap" }
+  ]
+}

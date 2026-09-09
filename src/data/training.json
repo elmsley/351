@@ -1,0 +1,11 @@
+{
+  "mandatoryActivities": [
+    { "activity": "Advanced Leadership Program", "requirement": "Mandatory for Senior Cadets" },
+    { "activity": "Aircrew Survival Exercise", "requirement": "Annual Requirement" },
+    { "activity": "Remembrance Day Parade", "requirement": "Mandatory Participation" }
+  ],
+  "competitions": [
+    { "name": "Marksmanship", "category": "Competitive Shooting" },
+    { "name": "Band & Drill", "category": "Precision Movement" }
+  ]
+}
